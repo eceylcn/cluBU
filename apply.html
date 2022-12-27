@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://use.fontawesome.com/730e111512.js"></script>
+<meta name= "viewport" content="with=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>cluBU</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<a class="gotopbtn" href=""> <i class="fa fa-arrow-up"></i></a>
+	<section class= "baslik">
+		<nav>
+			<a href="index.html"><img src="logo.png" alt="home"></a>
+			<div class="navlinks" id="navscript">
+				<i class="fa fa-window-close" onclick="hidemenu()"></i>
+				<ul>
+				<li><a href="index.html">Ana sayfa</a></li>
+				<li><a href="apply.html">Kayıt ol</a></li>
+				<li><a href="login.html">Giriş yap</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		
+		<section class="textbox">
+		<h1>Eğer sen de kulüplere katılmak & kulübünü daha renkli yapmak istiyorsan doğru adrestesin!</h1>
+		<p>Hemen aşağıdaki formu doldur, aramıza ve istediğin kulübe katıl! Birçok üniversiteyle kardeş kulüp olma fırsatını kaçırma ve etkinliklerine daha fazla sponsor ve katılımcı çekme şansı yakala! Aklına takılan başka şeyler olursa aşağıdaki butondan tek tıkla bize ulaş:)</p>
+		<a href="mailto:clubuseninle@gmail.com" class="herobtn">Hızlıca bir mail atayım</a>
+		</section>
+	</section>
+			
+			<div id="login-box">
+			  <div class="left">
+				  <h1>Kayıt ol</h1>
+				<input type="text" name="username" placeholder="Kullanıcı adı" required>
+				<input type="text" name="email" placeholder="E-mail" required>
+				<input type="password" name="password" placeholder="Şifre" required >
+				<input type="password" name="password2" placeholder="Şifre doğrulama" required>
+				  Kayıt olabilmek için öğrenci kimliğini yüklemelisin:<br>
+				  <form action="/action_page.php">
+					  <label for="myfile"></label>
+					  <input type="file" id="myfile" name="myfile">
+				  </form><br>
+				<div class="register-switch">
+					  <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+					  <label for="sex_f" class="register-switch-label">cluBBerım!</label>
+					  <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+					  <label for="sex_m" class="register-switch-label">Değilim</label>
+    			</div>
+				  (Eğer bir kulüp başkanıysan bu seni cluBBer yapar!)
+				  
+				  
+				<input type="submit" onclick="document.location='interface.html'" name="signup_submit">
+			  </div>
+
+			  <div class="right">
+				<span class="loginwith"> <h1>Sosyal medya<br />hesabınla giriş yap</h1></span>
+
+				<button class="social-signin facebook">facebook ile giriş yap</button>
+				<button class="social-signin twitter">Twitter ile giriş</button>
+				<button class="social-signin google">Google+ ile giriş yap</button>
+			  </div>
+			  <div class="or">YA DA</div>
+			</div>
+	
+	<section class="footer">
+	<p>Tüm hakları saklıdır.</p>
+	<p>Sayfanın tamamı <b>Parlayan Yıldızlar Takımı</b> tarafından yapılmış olunup, template kullanılmamıştır.</p>
+		<div class="icons">
+			<a href="https://www.facebook.com/BogaziciUniv/" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/UniBogazici" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/unibogazici/?hl=tr" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/school/bogazici-university/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		</div>
+		<p><i class="fa fa-copyright"></i> Copyright 2020•2021 </p>
+	</section>
+	
+	<script>
+	var navscript = document.getElementById("navscript");
+	function showmenu(){
+		navscript.style.right = "0";
+	}
+	function hidemenu(){
+	navscript.style.right = "-200px";
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Anasayfa </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="interfacestyle.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"> </script>
+</head>
+<body>
+	<input type="checkbox" id="check">
+	<header>
+		<label for="check">
+			<i class="fas fa-bars" id="sidebar_btn"></i>
+		</label>
+		<div class="left_area">
+			<a href="clubs.html"><h3><span>cluBu | Anasayfa </span> </h3></a>
+		</div>
+		<div class="right_area" >
+			<a href="login.html" class="logout_bttn"><span> Çıkış yap!</span> </a>
+		</div>
+	</header>
+	
+	<div class="mobile_nav">
+		<div class="nav_bar">
+		<img src="unnamed.png" class="mobile_profile_image" alt="">
+		<i class="fa fa-bars nav_btn"></i>
+		</div>
+		<div class="mobile_nav_items">
+		<a href="payment.html"><i class="fas fa-user"></i><span> Ödeme detayları </span></a>
+		<a href="clubs.html"><i class="fas fa-users"></i>  <span> Kulübüm & Etkinlikler </span></a>
+		<a href="#"><i class="fas fa-qrcode"></i><span> Akış </span></a>
+		<a href="calendar.html"><i class="fas fa-calendar-week"></i><span> Etkinlik takvimim </span></a>
+		<a href="#"><i class="fas fa-cogs"></i>  <span>Ayarlar</span></a>
+		</div>
+	</div>
+	
+	<div class = "yanbar" > 
+		<div class="profile_info">
+		<img src = "unnamed.png" class = "pp" alt = "">
+			<h4> Birisi Example  </h4>
+		</div>
+		<a href="payment.html"><i class="fas fa-user"></i><span>  Ödeme detayları </span></a>
+		<a href="clubs.html"><i class="fas fa-users"></i>  <span> Kulübüm & Etkinlikler </span></a>
+		<a href="#"><i class="fas fa-qrcode"></i><span> Akış </span></a>
+		<a href="calendar.html"><i class="fas fa-calendar-week"></i><span> Etkinlik takvimim </span></a>
+		<a href="#"><i class="fas fa-cogs"></i>  <span>Ayarlar</span></a>
+
+	</div>
+	
+	<div class="content">
+	
+		<div class="card">
+		<p>Kayıtlı olduğun kulüp(ler): <a class= "redbtn" href="http://www.sinema.boun.edu.tr/" target="_blank"><b>BÜSK</b></a></p>
+		</div>
+		
+		<section class="reviews">
+		<h1 class="redbtn">Kulübünün son güncellemeleri:</h1>
+		<div class="row">
+			
+			<div class="reviewcol">
+			<img src="busklogo.png" width="60px" height="60px" alt="user">
+			<div>
+				<p>Merhaba arkadaşlar! Yılın o vakti geldi. Evet, geleneksel Kahveli etkinliği geldi! 7-13 Aralık tarihlerinde saat 18'de hep beraber toplanalım! Tolga Karaçelik ve Beril Ateşoğlu ile Film Yapım Sürecini konuşacağımız bu Kahveli'de ayrıca Kelebekler filmini inceliyor ve analiz ediyor olacağız. Etkinliğimiz kontenjanla sınırlıdır. <br><br><a class="redbtn" href="form.html"> Formu hemen buradan doldurabilirsiniz.</a> </p>
+				<h4>7 sn önce güncellendi.</h4>
+				</div></div></div></section>
+			
+			</div>
+
+	
+	<script type ="text/javascript">
+	$(document).ready(function(){
+		$('.nav_btn').click(function(){
+			$('.mobile_nav_items').toggleClass('active');
+		});
+	});
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://use.fontawesome.com/730e111512.js"></script>
+<meta name= "viewport" content="with=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>cluBU</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<a class="gotopbtn" href=""> <i class="fa fa-arrow-up"></i></a>
+	<section class= "header">
+		<nav>
+			<a href="index.html"><img src="logo.png" alt="home"></a>
+			<div class="navlinks" id="navscript">
+				<i class="fa fa-window-close" onclick="hidemenu()"></i>
+				<ul>
+				<li><a href="index.html">Ana sayfa</a></li>
+				<li><a href="#about">cluBU nedir?</a></li>
+				<li><a href="#comments">Başkaları ne diyor?</a></li>
+				<li><a href="apply.html">Kayıt ol</a></li>
+				<li><a href="login.html">Giriş yap</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<div class="textbox">
+		<h1>Kulüpler. Etkinlikler. Eğlence. Ve daha fazlası. Hepsi 1 Arada.</h1>
+		
+		</div>
+	</section>
+	
+	<section class="about">
+		<h1><a id="about">cluBU sizlere neler sağlar?</a></h1>
+		<div class="row">
+			<div class="aboutcol">
+				<h3>Kulüplere daha hızlı erişim</h3>
+				<p>Kulüp tanıtım günlerinde kendinize uygun kulübü aramakta sorun mu yaşıyorsunuz? cluBU ile sizlere kulüpler hakkında birçok bilgi ve yöneticileri ile kolayca iletişim kurmayı vadediyoruz.</p>
+				<img src="fast.png" alt="fast">
+			</div>
+			<div class="aboutcol">
+				<h3>Daha fazla PR, daha fazla katılımcı</h3>
+				<p>Kulüpçe düzenlediğiniz etkinliklere daha fazla katılımcı çekebilmek için var olan kısıtlı PR olanaklarınızı cluBU ile genişletmeyi vadediyoruz. Kulübünüzü en iyi şekilde özetleyecek videolar, sunumlar ve metinlerle online tanıtımlarınızı destekliyor,bu sayede daha fazla kişiye ulaşma imkanı sağlıyoruz.</p>
+				<img src="pr.png" alt="fast">
+			</div>
+			<div class="aboutcol">
+				<h3>Artık çok daha sosyalsiniz</h3>
+				<p>15'ten fazla üniversiteden yüzlerce kulübün ve 10 binlerce öğrencinin kolayca katılabileceği bu platformda kısa sürede birçok kişi ve kuruluş profili ile etkileşim kurarak ağınızı genişletmek artık mümkün.</p>
+				<img src="morecopy.png" alt="fast">
+			</div>
+		</div>
+	</section>
+	
+	<section class="reviews">
+		<a id="comments"><h1>cluBU kullanıcılarının değerlendirmeleri</h1></a>
+		<div class="row">
+			<div class="reviewcol">
+			<img src="user1.png" alt="user">
+			<div>
+				<p>Ben pandemi döneminde Boğaziçi Üniversitesini kazandım. Bu yüzden okulda henüz fiziksel olarak bulunmadım. Boğaziçinin en önemli yanlarından biri de çok fazla aktif kulübü olmasıydı benim için. Bu yüzden pandemide kazanmış olduğuma çok üzülüyordum. Derken cluBU ile tanıştım. Burada hem kulüplere kayıt hem de kulüpler hakkında bilgilere sahip olmak çok kolay. Ayrıca cluBU sayesinde sadece okulumla yetinmiyor, diğer tüm okulların aktivitelerinden de anında haberdar oluyorum.</p>
+				<h3>Ayşe Öztürk, Boğaziçi Üni.</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			</div>
+			<div class="reviewcol">
+			<img src="user2.png" alt="user">
+			<div>
+				<p>Gelişmekte olan bu uygulama özellikle online dönemde muzdarip olduğum zorunlu asosyallikten beni kurtardı. Özellikle Boğaziçinden COMPEC kulübünün aktivitelerine katılmanızı öneririm. Uygulama geliştikçe daha iyi bir hal alacağına inancım tam. Özellikle kendim bir kulübün başkanı olduğum için buradan kulübüme katılmak isteyenleri çok hızlı bir şekilde kaydettirebiliyorum. Hatta geçen dönemlere oranla kulüpteki aktif üye sayım arttı diyebilirim. Teşekkürler cluBU.</p>
+				<h3>Can Kızıl, İstanbul Üni.</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	<div class="survey"> 
+	<h3>Yorumlarınız ve değerlendirmeleriniz bizim için önemli. Görüşlerinizi bildirmeyi unutmayın! :) </h3>
+		<form class="commentform">
+		<input type="name" placeholder="Adınız">
+		<input type="lastna" placeholder="Soy Adınız">
+		<input type="email" placeholder="Mail Adresiniz">
+		<textarea rows="5" placeholder="Görüşleriniz (kulüp önerileri, hisleriniz, uygulama değerlendirmeleri...)"></textarea>
+		<h4>Hizmetimizi değerlendirin:</h4>
+			<div class="rate">
+				<input type="radio" id="star5" name="rate" value="5" />
+				<label for="star5" title="5 yıldız">5 stars</label>
+				<input type="radio" id="star4" name="rate" value="4" />
+				<label for="star4" title="4 yıldız">4 stars</label>
+				<input type="radio" id="star3" name="rate" value="3" />
+				<label for="star3" title="3 yıldız">3 stars</label>
+				<input type="radio" id="star2" name="rate" value="2" />
+				<label for="star2" title="2 yıldız">2 stars</label>
+				<input type="radio" id="star1" name="rate" value="1" />
+				<label for="star1" title="1 yıldız">1 star</label>
+  			</div><br><br>
+		<button style = "position:relative; left:-20px" type="button" onclick="alert('Görüşleriniz başarıyla kaydedilmiştir.')" class="redbtn">GÖNDER</button>
+		</form>
+	</div>
+	
+	<section class="footer">
+	<p>Tüm hakları saklıdır.</p>
+	<p>Sayfanın tamamı <b>Parlayan Yıldızlar Takımı</b> tarafından yapılmış olunup, template kullanılmamıştır.</p>
+		<div class="icons">
+			<a href="https://www.facebook.com/BogaziciUniv/" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/UniBogazici" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/unibogazici/?hl=tr" target="_blank"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/school/bogazici-university/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		</div>
+		<p><i class="fa fa-copyright"></i> Copyright 2020•2021 </p>
+	</section>
+	
+	<script>
+	var navscript = document.getElementById("navscript");
+	function showmenu(){
+		navscript.style.right = "0";
+	}
+	function hidemenu(){
+	navscript.style.right = "-200px";
+	}
+	</script>
+</body>
+</html>
