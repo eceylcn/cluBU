@@ -1,5 +1,5 @@
 # cluBU
-A website work that I took on most of the development part with my team for CET102 course at Boğaziçi University. All HTML &amp; CSS files except calendar.html are developed by me, Ece Yalçın.
+2021 Spring - A website work that I took on most of the development part with my team for CET102 course at Boğaziçi University. All HTML &amp; CSS files except calendar.html are developed by me, Ece Yalçın.
 
 1. At home page, sliding explanatory buttons added. By clicking them, you can see, with smooth transition behavior, what the website is about.
 
